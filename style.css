@@ -1,5 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Outfit&display=swap');
+
 body{
     background-color: hsl(212, 45%, 89%);
+    font-family: Outfit;
+}
+
+p{
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
+
+h2{
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    font-size: 15px;
 }
 
 .attribution { 
@@ -9,4 +24,13 @@ body{
   
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+#QR_Card{
+    background-color: hsl(0, 0%, 100%);
+}
+
+#QR_Card img{
+    width: 400px;
+    height: 700px;
 }
