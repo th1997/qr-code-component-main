@@ -9,7 +9,6 @@ body{
 #QR_Card{
     background-color: hsl(0, 0%, 100%);
     border-radius: 5%;
-    text-align: center;
     padding-top: 18px;
     width: 290px;
     height: 440px;
@@ -46,6 +45,7 @@ footer, #QR_Card{
     right: 0;
     bottom: 0;
     left: 0;
+    text-align: center;
 }
   
 footer a { color: hsl(228, 45%, 44%); }
