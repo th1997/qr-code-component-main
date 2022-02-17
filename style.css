@@ -3,40 +3,56 @@
 body{
     background-color: hsl(212, 45%, 89%);
     font-family: Outfit;
+    height: 100%;
 }
 
-p{
-    font-weight: 400;
-    font-size: 15px;
-    color: hsl(220, 15%, 55%);
-    text-align: center;
-}
-
-h2{
+.title_card h1{
     font-weight: 700;
     color: hsl(218, 44%, 22%);
-    font-size: 15px;
+    font-size: 20px;
+    padding-bottom: 5%;
+    padding-top: 7%;
+}
+
+.title_card, #QR_Card p, footer{
+    padding-left: 7%;
+    padding-right: 7%;
     text-align: center;
 }
 
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
+footer { 
+    font-size: 11px;
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 1%;
 }
   
-.attribution a { 
+footer a { 
     color: hsl(228, 45%, 44%); 
 }
 
 #QR_Card{
     background-color: hsl(0, 0%, 100%);
-    border-radius: 5%;
-    margin: 0 auto;
+    border-radius: 4%;
+    padding-top: 1%;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 10%;
+    text-align: center;
 }
 
 #QR_Card img{
-    border-radius: 5%;
-    width: 150px;
-    height: 150px;
-    center;
+    border-radius: 4%;
+    max-width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#QR_Card p{
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    padding-bottom: 11%;
 }
