@@ -6,7 +6,7 @@ body{
     height: 100%;
 }
 
-#QR_Card{
+main{
     background-color: hsl(0, 0%, 100%);
     border-radius: 5%;
     padding-top: 18px;
@@ -16,31 +16,31 @@ body{
     top: 0;
 }
 
-#QR_Card img{
+main img{
     border-radius: 5%;
     max-width: 89%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.title_card{
-    font-weight: 700;
+.title_card h1{
     color: hsl(218, 44%, 22%);
-    font-size: 14px;
+    font-size: 21px;
+    font-weight: 700;
 }
 
-#QR_Card p{
+main p{
     font-weight: 400;
     font-size: 15px;
     color: hsl(220, 15%, 55%);
 }
 
-.title_card, #QR_Card p, footer{
+.title_card, main p, footer{
     padding-left: 9%;
     padding-right: 8%;
 }
 
-footer, #QR_Card{
+footer, main{
     position: absolute;
     right: 0;
     bottom: 0;
